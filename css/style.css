@@ -1,7 +1,14 @@
-h1{
-text-align:center;
-color:blue}
-p{
-	text-align: center;
-    color: green;
+.card{
+  background-color: white;
+  display:flex;
+  padding:5px;
+  border:1px;
+  box-shadow:5px 5px 10px grey;
+  justify-content:center;
+  align-items:center;
+
+}
+
+h2{
+  font-size:2.5rem!important;
 }
