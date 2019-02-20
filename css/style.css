@@ -1,14 +1,105 @@
+* {
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+.anchor{
+  text-decoration: none!important;
+  color:white!important
+}
+
+.anchor:hover{
+  font-weight:bold
+}
+
+.navbar-config{
+  box-shadow: 0px 1px 5px gray;
+  background-color: white!important
+}
+
 .card{
   background-color: white;
   display:flex;
   padding:5px;
   border:1px;
-  box-shadow:5px 5px 10px grey;
-  justify-content:center;
+  box-shadow:1px 1px 4px grey;
+  justify-content:space-evenly;
   align-items:center;
 
 }
 
+.card-noborder{
+  display:flex;
+  padding:5px;
+  align-items:center;
+  
+}
+
+
+
 h2{
   font-size:2.5rem!important;
+}
+
+#skills{
+  background-color:#f8f9fa!important;
+  box-shadow: 1px 1px 10px gray;
+  border-radius:0px!important;
+  padding-top:50px!important
+
+}
+
+#projects{
+  background-color:white!important;
+}
+
+.list-item{
+  border-width: 0px!important;
+  background-color:#f8f9fa!important;
+  text-align:center
+
+}
+
+#p1{
+  background-color:#00695f!important;
+}
+#p2{
+  background-color:#00a0b2!important;
+}
+#p3{
+  background-color:#ff5722!important;
+}
+
+#p1:hover{
+  transform: translate(0px,-5px);
+}
+#p2:hover{
+  transform: translate(0px,-5px);
+}
+#p3:hover{
+  transform: translate(0px,-5px);
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
